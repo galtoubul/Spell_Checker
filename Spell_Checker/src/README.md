@@ -27,10 +27,10 @@ The red black tree will contain the given text.
 n is the number of words in the dictionary and m is the number of words in the given text
 
 Time: O(log(max(n, m))) <br />
-                   <t>     Hash Table:<br />
-                   <t>     inserting is done at O(1)<br />
-                    <t>    searching in the hash table with aמ even distribution is done at amortized time O(1)<br />
-                    <t>    and O(log(n)) at WC since we can use binary search <br />
-                    <t>    base sort is done at O(n)<br />
-                  <t>      RBT: all actions are done at O(log(m)) at WC   <br />                                             
+                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    Hash Table:<br />
+                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     inserting is done at O(1)<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   searching in the hash table with aמ even distribution is done at amortized time O(1)<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    and O(log(n)) at WC since we can use binary search <br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   base sort is done at O(n)<br />
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    RBT: all actions are done at O(log(m)) at WC   <br />                                             
 Space: O(n + m) for storing the dictionary and the given text
